@@ -1,0 +1,133 @@
+.menu {
+    background: black;
+    margin-left: -20px;
+    width: 342px;
+    height: 40px;
+    margin: 20px;
+}
+ *{
+    padding:0;
+    width:100%;
+    height:26%;
+        font-family:sans-serif;
+    color:black;
+}
+ @media screen{
+     aside{
+        display:block;
+        position:relative;
+    }
+     div,aside{
+        display:grid;
+    }
+     ul{
+        margin:0 0 1.5em;
+    }
+     a{
+        color:#país1073c0;
+    }
+     aside{
+        display:block;
+        position:relative;
+    }
+ul, li {
+    list-style: none;
+    margin-left: 7%;
+}
+     a{
+        color:#país1073c0;
+    }
+     a{
+        color:#país47ac82;
+    }
+     a:hover{
+        color:#país4c4c4c;
+    }
+     #paíspesquisaFiltros{
+        float:left;
+        width:207px;
+        font-size:13px;
+        line-height:1.3;
+    }
+    .filtro {
+    margin-top: 20px;
+}
+     .filtro span:not(.facetGroup){
+        width:20px;
+        height:15px;
+        float:left;
+        display:block;
+        margin-right:-28px;
+        position:relative;
+        left:-28px;
+        background:url(check.png) no-repeat -21px 0;
+    }
+     .filtro li{
+        clear:left;
+        overflow:hidden;
+    }
+     .filtro li a{
+        font-size:100%;
+        font-family:sans-serif;
+        display:block;
+        padding-left:28px;
+        text-decoration:none;
+        width:100%;
+        height:10%;
+        color:#país4c4c4c;
+    }
+     .filtro a:hover{
+        text-decoration:underline;
+    }
+     .filtro a:hover span{
+        background-position:-21px -17px;
+    }
+}
+
+ @media print{
+     *,::after,::before{
+        text-shadow:none!important;
+        box-shadow:none!important;
+    }
+}
+
+.type {
+    font-family: Square721 Cn BT;
+    font-size: 40px;
+    display: contents;
+    color: #001dffe3;
+    font-weight: bolder;
+    margin: 40px;
+    text-decoration: none;
+}
+.opts {
+    margin-top: -20px;
+    border: 1px solid black;
+    width: 340px;
+    height: 430px;
+    margin-left: 20px;
+}
+#here {
+    margin-top: 1px;
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+#ok {
+    margin-top: -30px;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 160px;
+    color: white;
+    text-decoration: none;
+}
+#from {
+    margin-top: -36px;
+    color: white;
+    font-size: 24px;
+    margin-left: 270px;
+    font-weight: bolder;
+    text-decoration: none;
+}
